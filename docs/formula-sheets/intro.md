@@ -26,11 +26,6 @@ A quick link to the periodic table, with element symbols, atomic numbers, and gr
 
 Guides for IUPAC naming, common names, and rules for naming ionic and covalent compounds.
 
-<div class="figureCenter">
-	<img src="/img/naming-compounds.png" alt="Naming compounds table" class="responsiveImage" style="width:600px; max-width:100%;" />
-	<div class="figureCaption">Common prefixes used in naming molecular compounds.</div>
-</div>
-
 ## General chemistry formulas
 
 Add the most important formulas here, such as molarity, percent composition, and gas law equations.
