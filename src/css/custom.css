@@ -48,3 +48,23 @@ body {
   margin-top: 1.5rem;
   flex-wrap: wrap;
 }
+
+/* Responsive images used across the site */
+.responsiveImage {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.figureCenter {
+  text-align: center;
+}
+
+.figureCaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
