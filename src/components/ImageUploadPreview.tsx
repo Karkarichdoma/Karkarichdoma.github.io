@@ -33,16 +33,28 @@ export default function ImageUploadPreview(): JSX.Element {
   return (
     <div>
       <div className="imageUploadBox">
-        <p>Upload an image here and it will appear right away. Click the image to open it in full size.</p>
-        <input type="file" accept="image/*" onChange={handleFileChange} />
-        {dataUrl && (
+        <input
+          type="file"
+          accept="image/*"
+          onChange={handleFileChange}
+          id="hiddenImageUpload"
+          style={{ display: 'none' }}
+        />
+        {dataUrl ? (
           <div style={{ marginTop: '0.75rem' }}>
             <img
               src={dataUrl}
               alt="Uploaded preview"
               onClick={() => setIsOpen(true)}
-              style={{ cursor: 'zoom-in' }}
+              style={{ cursor: 'zoom-in', width: '100%' }}
             />
+          </div>
+        ) : (
+          <div
+            onClick={() => document.getElementById('hiddenImageUpload')?.click()}
+            style={{ cursor: 'pointer', minHeight: '140px', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px dashed #ccc', borderRadius: '6px', color: '#666' }}
+          >
+            Click to upload an image
           </div>
         )}
       </div>
