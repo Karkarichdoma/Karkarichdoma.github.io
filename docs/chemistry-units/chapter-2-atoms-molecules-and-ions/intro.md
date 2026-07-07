@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 2 | Atoms, Molecules, and Ions"
+title: "Chapter 2 | Atoms, Molecules, and Ions"
+sidebar_label: "Chapter 2 | Atoms, Molecules, and Ions"
 sidebar_position: 1
 ---
 

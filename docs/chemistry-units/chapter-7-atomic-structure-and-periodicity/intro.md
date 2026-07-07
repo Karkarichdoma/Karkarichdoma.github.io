@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 7 | Atomic Structure and Periodicity"
+title: "Chapter 7 | Atomic Structure and Periodicity"
+sidebar_label: "Chapter 7 | Atomic Structure and Periodicity"
 sidebar_position: 1
 ---
 

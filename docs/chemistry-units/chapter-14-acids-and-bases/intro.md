@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 14 | Acids and Bases"
+title: "Chapter 14 | Acids and Bases"
+sidebar_label: "Chapter 14 | Acids and Bases"
 sidebar_position: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 5 | Gases"
+title: "Chapter 5 | Gases"
+sidebar_label: "Chapter 5 | Gases"
 sidebar_position: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 8 | Bonding: General Concepts"
+title: "Chapter 8 | Bonding: General Concepts"
+sidebar_label: "Chapter 8 | Bonding: General Concepts"
 sidebar_position: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 1 | Chemical Foundations"
+title: "Chapter 1 | Chemical Foundations"
+sidebar_label: "Chapter 1 | Chemical Foundations"
 sidebar_position: 1
 ---
 

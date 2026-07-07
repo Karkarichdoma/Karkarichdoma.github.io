@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 3 | Stoichiometry"
+title: "Chapter 3 | Stoichiometry"
+sidebar_label: "Chapter 3 | Stoichiometry"
 sidebar_position: 1
 ---
 

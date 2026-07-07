@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 11 | Properties of Solutions"
+title: "Chapter 11 | Properties of Solutions"
+sidebar_label: "Chapter 11 | Properties of Solutions"
 sidebar_position: 1
 ---
 

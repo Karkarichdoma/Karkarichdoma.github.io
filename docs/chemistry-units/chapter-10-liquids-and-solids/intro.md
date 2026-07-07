@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 10 | Liquids and Solids"
+title: "Chapter 10 | Liquids and Solids"
+sidebar_label: "Chapter 10 | Liquids and Solids"
 sidebar_position: 1
 ---
 

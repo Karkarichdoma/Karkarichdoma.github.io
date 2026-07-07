@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 9 | Covalent Bonding: Orbitals"
+title: "Chapter 9 | Covalent Bonding: Orbitals"
+sidebar_label: "Chapter 9 | Covalent Bonding: Orbitals"
 sidebar_position: 1
 ---
 

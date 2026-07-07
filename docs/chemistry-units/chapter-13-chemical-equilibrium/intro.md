@@ -1,5 +1,6 @@
 ---
-id-title: "Chapter 13 | Chemical Equilibrium"
+title: "Chapter 13 | Chemical Equilibrium"
+sidebar_label: "Chapter 13 | Chemical Equilibrium"
 sidebar_position: 1
 ---
 
