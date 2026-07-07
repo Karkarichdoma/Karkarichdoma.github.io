@@ -15,6 +15,7 @@ export default function Home(): JSX.Element {
         <section className="container">
           <h1>{siteConfig.title}</h1>
           <p>{siteConfig.tagline}</p>
+          <p>A study hub for chemistry notes, practice problems, and formula sheets.</p>
           <div className="heroButtons">
             <Link className="button button--primary" to="/docs/intro">
               Continue
