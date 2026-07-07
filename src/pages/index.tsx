@@ -17,7 +17,7 @@ export default function Home(): JSX.Element {
           <p>{siteConfig.tagline}</p>
           <div className="heroButtons">
             <Link className="button button--primary" to="/docs/intro">
-              Read the docs
+              Continue
             </Link>
             <Link className="button button--secondary" to="https://docusaurus.io">
               Learn Docusaurus
