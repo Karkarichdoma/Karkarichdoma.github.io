@@ -10,6 +10,7 @@ Use this area for quick-reference sheets and study summaries.
 ## Jump to a sheet
 
 - [Periodic Table](#periodic-table)
+- [Naming compounds](#naming-compounds)
 - [General chemistry formulas](#general-chemistry-formulas)
 - [Unit conversion charts](#unit-conversion-charts)
 - [Equations for gas laws](#equations-for-gas-laws)
@@ -20,6 +21,10 @@ Use this area for quick-reference sheets and study summaries.
 ## Periodic Table
 
 A quick link to the periodic table, with element symbols, atomic numbers, and groups.
+
+## Naming Compounds
+
+Guides for IUPAC naming, common names, and rules for naming ionic and covalent compounds.
 
 ## General chemistry formulas
 
