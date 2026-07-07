@@ -1,72 +1,51 @@
 import React, { useEffect, useState } from 'react';
 
-const storageKey = 'formulaSheetsUploadedImages';
+const storageKey = 'formulaSheetsUploadedImage';
 
 export default function ImageUploadPreview(): JSX.Element {
-  const [images, setImages] = useState<string[]>([]);
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [dataUrl, setDataUrl] = useState<string | null>(null);
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const saved = window.localStorage.getItem(storageKey);
     if (saved) {
-      try {
-        const parsed = JSON.parse(saved) as string[];
-        if (Array.isArray(parsed)) {
-          setImages(parsed);
-        }
-      } catch {
-        // ignore invalid storage content
-      }
+      setDataUrl(saved);
     }
   }, []);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const files = Array.from(event.target.files || []);
-    if (!files.length) {
+    const file = event.target.files?.[0];
+    if (!file) {
       return;
     }
 
-    const readers = files.map(
-      (file) =>
-        new Promise<string>((resolve) => {
-          const reader = new FileReader();
-          reader.onload = () => {
-            resolve(typeof reader.result === 'string' ? reader.result : '');
-          };
-          reader.readAsDataURL(file);
-        }),
-    );
-
-    Promise.all(readers).then((results) => {
-      const nextImages = results.filter(Boolean);
-      const mergedImages = images.length === 0 ? nextImages : [...images, ...nextImages];
-      const lockedImages = images.length === 0 ? [nextImages[0]].filter(Boolean) : images;
-      const finalImages = images.length === 0 ? lockedImages : [...lockedImages, ...nextImages];
-      setImages(finalImages);
-      window.localStorage.setItem(storageKey, JSON.stringify(finalImages));
-    });
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = typeof reader.result === 'string' ? reader.result : null;
+      if (result) {
+        setDataUrl(result);
+        window.localStorage.setItem(storageKey, result);
+      }
+    };
+    reader.readAsDataURL(file);
   };
 
   return (
     <div>
-      <input type="file" accept="image/*" multiple onChange={handleFileChange} />
-      {images.length > 0 && (
-        <div style={{ marginTop: '0.75rem' }}>
-          {images.map((image, index) => (
+      <div className="imageUploadBox">
+        <p>Upload an image here and it will appear right away. Click the image to open it in full size.</p>
+        <input type="file" accept="image/*" onChange={handleFileChange} />
+        {dataUrl && (
+          <div style={{ marginTop: '0.75rem' }}>
             <img
-              key={`${image.slice(0, 20)}-${index}`}
-              src={image}
-              alt={`Uploaded preview ${index + 1}`}
-              onClick={() => {
-                setSelectedImage(image);
-                setIsOpen(true);
-              }}
-              style={{ cursor: 'zoom-in', maxWidth: '100%', marginTop: index > 0 ? '0.75rem' : 0 }}
+              src={dataUrl}
+              alt="Uploaded preview"
+              onClick={() => setIsOpen(true)}
+              style={{ cursor: 'zoom-in' }}
             />
-          ))}
-        </div>
-      )}
+          </div>
+        )}
+      </div>
 
       <div
         className={`imageModalOverlay${isOpen ? ' open' : ''}`}
@@ -76,7 +55,7 @@ export default function ImageUploadPreview(): JSX.Element {
         onClick={() => setIsOpen(false)}
       >
         <div className="imageModalContent" onClick={(event) => event.stopPropagation()}>
-          {selectedImage && <img src={selectedImage} alt="Full-size preview" />}
+          {dataUrl && <img src={dataUrl} alt="Full-size preview" />}
         </div>
       </div>
     </div>
