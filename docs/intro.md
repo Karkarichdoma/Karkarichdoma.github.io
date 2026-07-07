@@ -3,11 +3,11 @@ id-title: Welcome
 sidebar_position: 1
 ---
 
-# Welcome to the docs
+# Welcome to Chemistry Honors Website
 
 This section is now organized around the topics you requested.
 
-## Explore the docs
+## You can use it for:
 
 - [Chemistry Units](/docs/chemistry-units/intro) for topic-based study pages
 - [Practice Problems](/docs/practice-problems/intro) for exercises and worked examples
