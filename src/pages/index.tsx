@@ -19,9 +19,6 @@ export default function Home(): JSX.Element {
             <Link className="button button--primary" to="/docs/intro">
               Continue
             </Link>
-            <Link className="button button--secondary" to="https://docusaurus.io">
-              Learn Docusaurus
-            </Link>
           </div>
         </section>
       </main>
