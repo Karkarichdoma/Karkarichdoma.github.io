@@ -3,7 +3,7 @@ id-title: Welcome
 sidebar_position: 1
 ---
 
-# Welcome to Chemistry Honors Website
+# Welcome to Chemistry Honors
 
 This section is now organized around the topics you requested.
 
