@@ -22,6 +22,10 @@ Use this area for quick-reference sheets and study summaries.
 
 A quick link to the periodic table, with element symbols, atomic numbers, and groups.
 
+import ImageUploadPreview from '@site/src/components/ImageUploadPreview';
+
+<ImageUploadPreview />
+
 ## Naming Compounds
 
 Guides for IUPAC naming, common names, and rules for naming ionic and covalent compounds.
