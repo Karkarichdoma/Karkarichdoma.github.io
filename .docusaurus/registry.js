@@ -5,7 +5,10 @@ export default {
   "1df93b7f": [() => import(/* webpackChunkName: "1df93b7f" */ "@site/src/pages/index.tsx"), "@site/src/pages/index.tsx", require.resolveWeak("@site/src/pages/index.tsx")],
   "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
+  "7692d3b1": [() => import(/* webpackChunkName: "7692d3b1" */ "@site/docs/formula-sheets/intro.md"), "@site/docs/formula-sheets/intro.md", require.resolveWeak("@site/docs/formula-sheets/intro.md")],
   "a7456010": [() => import(/* webpackChunkName: "a7456010" */ "@generated/docusaurus-plugin-content-pages/default/__plugin.json"), "@generated/docusaurus-plugin-content-pages/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-pages/default/__plugin.json")],
   "a7bd4aaa": [() => import(/* webpackChunkName: "a7bd4aaa" */ "@theme/DocVersionRoot"), "@theme/DocVersionRoot", require.resolveWeak("@theme/DocVersionRoot")],
   "a94703ab": [() => import(/* webpackChunkName: "a94703ab" */ "@theme/DocRoot"), "@theme/DocRoot", require.resolveWeak("@theme/DocRoot")],
-  "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],};
+  "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],
+  "b7d0af75": [() => import(/* webpackChunkName: "b7d0af75" */ "@site/docs/chemistry-units/intro.md"), "@site/docs/chemistry-units/intro.md", require.resolveWeak("@site/docs/chemistry-units/intro.md")],
+  "df0eb1ed": [() => import(/* webpackChunkName: "df0eb1ed" */ "@site/docs/practice-problems/intro.md"), "@site/docs/practice-problems/intro.md", require.resolveWeak("@site/docs/practice-problems/intro.md")],};

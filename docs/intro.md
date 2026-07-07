@@ -3,18 +3,18 @@ id-title: Welcome
 sidebar_position: 1
 ---
 
-# Welcome to your Docusaurus site
+# Welcome to the docs
 
-This repository now includes a minimal Docusaurus template that is ready to be customized.
+This section is now organized around the topics you requested.
 
-## What is included
+## Explore the docs
 
-- A landing page at the site root
-- A docs section under `/docs`
-- A simple theme and layout you can extend
+- [Chemistry Units](/docs/chemistry-units/intro) for topic-based study pages
+- [Practice Problems](/docs/practice-problems/intro) for exercises and worked examples
+- [Formula Sheets](/docs/formula-sheets/intro) for quick reference material
 
-## Next steps
+## Suggested next steps
 
-1. Edit this page to describe your project.
-2. Add more documents in the `docs` folder.
-3. Deploy the site to GitHub Pages when you are ready.
+1. Add more chemistry topics under the Chemistry Units section.
+2. Add practice questions and answer keys over time.
+3. Keep formula sheets updated as your study guide grows.

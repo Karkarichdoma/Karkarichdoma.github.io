@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Welcome to your Docusaurus site",
-  "description": "This repository now includes a minimal Docusaurus template that is ready to be customized.",
+  "title": "Welcome to the docs",
+  "description": "This section is now organized around the topics you requested.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -15,5 +15,9 @@
     "id-title": "Welcome",
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar"
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chemistry Units",
+    "permalink": "/docs/chemistry-units/intro"
+  }
 }

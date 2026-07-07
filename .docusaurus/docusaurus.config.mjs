@@ -46,9 +46,26 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/intro",
           "label": "Docs",
-          "position": "left"
+          "position": "left",
+          "items": [
+            {
+              "to": "/docs/intro",
+              "label": "Overview"
+            },
+            {
+              "to": "/docs/chemistry-units/intro",
+              "label": "Chemistry Units"
+            },
+            {
+              "to": "/docs/practice-problems/intro",
+              "label": "Practice Problems"
+            },
+            {
+              "to": "/docs/formula-sheets/intro",
+              "label": "Formula Sheets"
+            }
+          ]
         }
       ],
       "hideOnScroll": false
