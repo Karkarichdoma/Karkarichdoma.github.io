@@ -7,7 +7,7 @@ sidebar_position: 1
 
 It's a website created by Karina Azovtseva. Its goal is to help you review the materials you learned in class and catch up in case you missed something. Enjoy!
 
-## You can use it for:
+## Here, you can find:
 
 - [Chemistry Units](/docs/chemistry-units/intro) for topic-based study pages
 - [Practice Problems](/docs/practice-problems/intro) for exercises and worked examples
