@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Welcome to Chemistry Honors
 
-This section is now organized around the topics you requested.
+It's a website created by Karina Azovtseva. Its goal is to help you review the materials you learned in class and catch up in case you missed something. Enjoy!
 
 ## You can use it for:
 
