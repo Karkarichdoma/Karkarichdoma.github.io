@@ -1,0 +1,8 @@
+---
+id-title: "Chapter 8 | Bonding: General Concepts"
+sidebar_position: 1
+---
+
+# Chapter 8 | Bonding: General Concepts
+
+Add your notes and materials for this chapter here.
