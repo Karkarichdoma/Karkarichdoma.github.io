@@ -1,7 +1,7 @@
 ---
 title: "Chapter 13 | Chemical Equilibrium"
 sidebar_label: "Chapter 13 | Chemical Equilibrium"
-sidebar_position: 1
+sidebar_position: 13
 ---
 
 # Chapter 13 | Chemical Equilibrium

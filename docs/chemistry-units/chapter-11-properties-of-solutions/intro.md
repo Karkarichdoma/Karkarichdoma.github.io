@@ -1,7 +1,7 @@
 ---
 title: "Chapter 11 | Properties of Solutions"
 sidebar_label: "Chapter 11 | Properties of Solutions"
-sidebar_position: 1
+sidebar_position: 11
 ---
 
 # Chapter 11 | Properties of Solutions

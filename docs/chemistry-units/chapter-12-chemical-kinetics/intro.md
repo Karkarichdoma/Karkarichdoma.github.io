@@ -1,7 +1,7 @@
 ---
 title: "Chapter 12 | Chemical Kinetics"
 sidebar_label: "Chapter 12 | Chemical Kinetics"
-sidebar_position: 1
+sidebar_position: 12
 ---
 
 # Chapter 12 | Chemical Kinetics

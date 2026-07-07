@@ -1,7 +1,7 @@
 ---
 title: "Chapter 6 | Thermochemistry"
 sidebar_label: "Chapter 6 | Thermochemistry"
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 # Chapter 6 | Thermochemistry

@@ -1,7 +1,7 @@
 ---
 title: "Chapter 4 | Types of Chemical Reactions"
 sidebar_label: "Chapter 4 | Types of Chemical Reactions"
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # Chapter 4 | Types of Chemical Reactions

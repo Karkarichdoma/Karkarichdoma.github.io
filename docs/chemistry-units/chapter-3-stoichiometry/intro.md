@@ -1,7 +1,7 @@
 ---
 title: "Chapter 3 | Stoichiometry"
 sidebar_label: "Chapter 3 | Stoichiometry"
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Chapter 3 | Stoichiometry
