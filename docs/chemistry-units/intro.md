@@ -1,5 +1,6 @@
 ---
-id-title: Chemistry Units
+title: "Chemistry Units"
+sidebar_label: "Chemistry Units"
 sidebar_position: 1
 ---
 
