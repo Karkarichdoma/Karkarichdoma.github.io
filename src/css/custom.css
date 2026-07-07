@@ -15,35 +15,6 @@ body {
   padding: 4rem 1rem;
 }
 
-/* Modal (lightbox) for full-size images */
-.modalOverlay {
-  position: fixed;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0,0,0,0.75);
-  z-index: 1200;
-}
-.modalOverlay.hidden { display: none; }
-.modalContent {
-  max-width: 95%;
-  max-height: 95%;
-}
-.modalContent img { max-width: 100%; max-height: 100%; height: auto; display: block; border-radius: 6px; }
-.modalClose {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 2rem;
-  line-height: 1;
-  cursor: pointer;
-  z-index: 1300;
-}
-
 .hero .container {
   max-width: 800px;
 }
