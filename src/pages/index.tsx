@@ -21,6 +21,32 @@ export default function Home(): JSX.Element {
               Continue
             </Link>
           </div>
+
+          <div className="homeCards">
+            <Link className="homeCard" to="/docs/chemistry-units/intro">
+              <h3>Chemistry Units</h3>
+              <p>Explore chapter-by-chapter notes across the full course.</p>
+            </Link>
+            <Link className="homeCard" to="/docs/practice-problems/intro">
+              <h3>Practice Problems</h3>
+              <p>Work through exercises and step-by-step examples.</p>
+            </Link>
+            <Link className="homeCard" to="/docs/formula-sheets/intro">
+              <h3>Formula Sheets</h3>
+              <p>Keep key equations and constants handy in one place.</p>
+            </Link>
+          </div>
+
+          <div className="homeUnitList">
+            <h2>Popular units</h2>
+            <div className="unitLinks">
+              <Link to="/docs/chemistry-units/chapter-1-chemical-foundations/intro">Chapter 1</Link>
+              <Link to="/docs/chemistry-units/chapter-3-stoichiometry/intro">Chapter 3</Link>
+              <Link to="/docs/chemistry-units/chapter-6-thermochemistry/intro">Chapter 6</Link>
+              <Link to="/docs/chemistry-units/chapter-10-liquids-and-solids/intro">Chapter 10</Link>
+              <Link to="/docs/chemistry-units/chapter-13-chemical-equilibrium/intro">Chapter 13</Link>
+            </div>
+          </div>
         </section>
       </main>
     </Layout>
